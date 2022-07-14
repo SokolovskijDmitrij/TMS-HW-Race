@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D378B262875FB7A0000F1F5 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D378B252875FB7A0000F1F5 /* GameOverViewController.swift */; };
+		3D378B292875FC100000F1F5 /* ScoreOfGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D378B282875FC100000F1F5 /* ScoreOfGameViewController.swift */; };
+		3D3ACE382868D53600B15212 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ACE372868D53600B15212 /* FileStorage.swift */; };
+		3D88D3B6286B405500CF2369 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D88D3B5286B405500CF2369 /* GameViewController.swift */; };
 		3D9019412857B01B002233BD /* UserModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9019402857B01B002233BD /* UserModal.swift */; };
-		3D9019432857B05D002233BD /* SaveUserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9019422857B05D002233BD /* SaveUserSetting.swift */; };
-		3D90194528588BF8002233BD /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D90194428588BF8002233BD /* SettingViewController.swift */; };
+		3D9019432857B05D002233BD /* SaveUserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9019422857B05D002233BD /* SaveUserSettings.swift */; };
+		3D90194528588BF8002233BD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D90194428588BF8002233BD /* SettingsViewController.swift */; };
+		3DD1473B2876F535007B4BD6 /* RecordCame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1473A2876F535007B4BD6 /* RecordCame.swift */; };
 		3DF21F46282CF7EE003126EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF21F45282CF7EE003126EB /* AppDelegate.swift */; };
 		3DF21F48282CF7EE003126EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF21F47282CF7EE003126EB /* SceneDelegate.swift */; };
 		3DF21F4A282CF7EE003126EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF21F49282CF7EE003126EB /* ViewController.swift */; };
@@ -20,9 +25,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D378B252875FB7A0000F1F5 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		3D378B282875FC100000F1F5 /* ScoreOfGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreOfGameViewController.swift; sourceTree = "<group>"; };
+		3D3ACE372868D53600B15212 /* FileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
+		3D88D3B5286B405500CF2369 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		3D9019402857B01B002233BD /* UserModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModal.swift; sourceTree = "<group>"; };
-		3D9019422857B05D002233BD /* SaveUserSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveUserSetting.swift; sourceTree = "<group>"; };
-		3D90194428588BF8002233BD /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		3D9019422857B05D002233BD /* SaveUserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveUserSettings.swift; sourceTree = "<group>"; };
+		3D90194428588BF8002233BD /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3DD1473A2876F535007B4BD6 /* RecordCame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCame.swift; sourceTree = "<group>"; };
 		3DF21F42282CF7EE003126EB /* Homework 13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework 13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF21F45282CF7EE003126EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DF21F47282CF7EE003126EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,10 +96,15 @@
 			isa = PBXGroup;
 			children = (
 				3DF21F49282CF7EE003126EB /* ViewController.swift */,
+				3D88D3B5286B405500CF2369 /* GameViewController.swift */,
+				3D378B252875FB7A0000F1F5 /* GameOverViewController.swift */,
+				3D378B282875FC100000F1F5 /* ScoreOfGameViewController.swift */,
+				3DD1473A2876F535007B4BD6 /* RecordCame.swift */,
 				3DF21F5D282D1780003126EB /* UIViewController+Alert.swift */,
 				3D9019402857B01B002233BD /* UserModal.swift */,
-				3D9019422857B05D002233BD /* SaveUserSetting.swift */,
-				3D90194428588BF8002233BD /* SettingViewController.swift */,
+				3D9019422857B05D002233BD /* SaveUserSettings.swift */,
+				3D90194428588BF8002233BD /* SettingsViewController.swift */,
+				3D3ACE372868D53600B15212 /* FileStorage.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -183,11 +198,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DF21F4A282CF7EE003126EB /* ViewController.swift in Sources */,
+				3D3ACE382868D53600B15212 /* FileStorage.swift in Sources */,
 				3D9019412857B01B002233BD /* UserModal.swift in Sources */,
-				3D9019432857B05D002233BD /* SaveUserSetting.swift in Sources */,
+				3D9019432857B05D002233BD /* SaveUserSettings.swift in Sources */,
+				3D88D3B6286B405500CF2369 /* GameViewController.swift in Sources */,
 				3DF21F46282CF7EE003126EB /* AppDelegate.swift in Sources */,
+				3D378B262875FB7A0000F1F5 /* GameOverViewController.swift in Sources */,
+				3D378B292875FC100000F1F5 /* ScoreOfGameViewController.swift in Sources */,
 				3DF21F48282CF7EE003126EB /* SceneDelegate.swift in Sources */,
-				3D90194528588BF8002233BD /* SettingViewController.swift in Sources */,
+				3D90194528588BF8002233BD /* SettingsViewController.swift in Sources */,
+				3DD1473B2876F535007B4BD6 /* RecordCame.swift in Sources */,
 				3DF21F5E282D1780003126EB /* UIViewController+Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
